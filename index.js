@@ -1,8 +1,14 @@
 // dependencies
 var http = require("http")
-  , credentials = require("./credentials")
   , request = require("request")
   ;
+
+try {
+    var credentials = require("./credentials")
+} catch (e) {
+    console.log(e.message);
+    return;
+}
 
 http.createServer(function (req, res) {
 
