@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/googleapps-grant-access/issues"
   },
+  "dependencies": {
+    "request": "*"
+  },
   "homepage": "https://github.com/IonicaBizau/googleapps-grant-access"
 }
