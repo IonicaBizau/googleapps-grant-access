@@ -33,7 +33,7 @@ http.createServer(function (req, res) {
         console.log(authUrl);
 
         // redirect
-        response.writeHead(302, { 'Location': authUrl });
+        res.writeHead(302, { 'Location': authUrl });
         res.end();
 
         return;
