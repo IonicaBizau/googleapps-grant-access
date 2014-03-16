@@ -30,8 +30,10 @@ http.createServer(function (req, res) {
             authUrl += "&" + key + "=" + credentials[key];
         }
 
+        console.log(authUrl);
+
         // redirect
-        res.setHeader("location", authUrl);
+        response.writeHead(302, { 'Location': authUrl });
         res.end();
 
         return;
