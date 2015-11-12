@@ -1,6 +1,6 @@
 {
   "name": "googleapps-grant-access",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Grant access to Google applications",
   "main": "index.js",
   "scripts": {

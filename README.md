@@ -5,7 +5,7 @@ Grant access to Google applications
 ## Installation
 
 ```sh
-$ npm i -g googleapps-grant-access
+$ npm i googleapps-grant-access
 ```
 
 ## How to contribute
