@@ -1,6 +1,6 @@
 {
   "name": "googleapps-grant-access",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Grant access to Google applications",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git://github.com/IonicaBizau/googleapps-grant-access.git"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/googleapps-grant-access/issues"
   },
