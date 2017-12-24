@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save googleapps-grant-access
+# Using npm
+npm install --save googleapps-grant-access
+
+# Using yarn
+yarn add googleapps-grant-access
 ```
 
 
